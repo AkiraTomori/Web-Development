@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-menu{
+    padding: 4px 4px 4px 4px;
+    line-height: 1.6;
+}
+
+.main-menu #introduction-team{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-menu .introduction-member{
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.main-menu .introduction-members{
+    font-size: larger;
+    padding-left: 10px;
+}
+
+.introduction-members li{
+    text-align: justify;
+    color: black;
+}
+
+.about-member {
+    text-align: justify;
+    line-height: 1.6;
+    padding: 4px 4px 4px 4px;
+}
+
+.about-member .image-member {
+    width: 200px;
+    height: 200px;
+}
