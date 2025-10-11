@@ -39,3 +39,12 @@
     width: 200px;
     height: 200px;
 }
+
+.introduction-members a:hover{
+    background-color: coral;
+    opacity: 0.5;
+}
+
+.go-back .link-back:hover{
+    background-color: coral;
+}
