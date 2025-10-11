@@ -3,48 +3,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+.begin{
+    text-align: center;
+}
 
+.begin .menu{
+    line-height: 1.6;
+}
+
+.begin .welcome:hover{
+    color: coral;
+}
+
+.begin .welcome:active{
+    background-color: black;
+}
 .main-menu{
-    padding: 4px 4px 4px 4px;
     line-height: 1.6;
 }
 
-.main-menu #introduction-team{
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/* .main-menu .introduction-team, .main-menu .introduction-member{
+    text-align: center;
+} */
 
-.main-menu .introduction-member{
-    font-size: large;
-    margin-bottom: 10px;
-}
-
-.main-menu .introduction-members{
-    font-size: larger;
-    padding-left: 10px;
-}
-
-.introduction-members li{
+.main-menu .introduction-members {
     text-align: justify;
-    color: black;
 }
 
-.about-member {
+ul li{
     text-align: justify;
+    list-style: none;
+}
+
+li:hover{
+    color: coral;
+}
+
+li:active{
+    background-color: black;
+    display: inline-block;
+}
+
+.about-member{
     line-height: 1.6;
-    padding: 4px 4px 4px 4px;
 }
 
-.about-member .image-member {
+.about-member .image-member{
     width: 200px;
     height: 200px;
 }
 
-.introduction-members a:hover{
-    background-color: coral;
-    opacity: 0.5;
+.about-member .link-back:active{
+    background-color: black;
 }
 
-.go-back .link-back:hover{
-    background-color: coral;
+.about-member .link-back:hover{
+    color: coral;
 }
