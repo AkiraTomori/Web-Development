@@ -13,8 +13,8 @@ app.use(express.static('publics'));
 
 // Main route
 
-app.get('/', function(req, res){
-    res.sendFile(__dirname +'/views/index.html');
+app.get('/', (req, res) => {
+  res.redirect('/about-my-team.html');
 });
 
 // Secondary route

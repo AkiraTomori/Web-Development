@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giới thiệu nhóm</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Nhóm 5 - Lập trình ứng dụng web</title>
 </head>
 <body>
-    <div class="main-menu">
-        <h1 class="introduction-team">Nhóm Phát Triển Ứng Dụng Web 05</h1>
-        <p class="introduction-member">
-            Chúng em là nhóm sinh viên học môn Phát Triển Ứng Dụng Web lớp 23KTPM03
-        </p>
-        <h2 class="introduction-members">Danh sách từng thành viên</h2>
-        <ul>
-            <li><a href="./about-member1.html">Lê Phú Cường.</a></li>
-            <li><a href="./about-member2.html">Thái Minh Huy.</a></li>
-        </ul>
+    <div class="overlay"></div>
+
+    <div class="content container">
+        <h1>GIỚI THIỆU THÀNH VIÊN NHÓM 5</h1>
+        
+        <h2>PHÁT TRIỂN ỨNG DỤNG WEB</h2>
+
+        <div class="row justify-content-center g-5 mt-4">
+            <div class="col-md-4 col-6">
+                <button type="button" class="btn-custom" onclick="window.location.href='/about-member1.html'">Lê Phú Cường</button>
+            </div>
+
+            <div class="col-md-4 col-6">
+                <button type="button" class="btn-custom" onclick="window.location.href='/about-member2.html'">Thái Minh Huy</button>
+            </div>
+        </div>
     </div>
-
-
 </body>
 </html>
