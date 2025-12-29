@@ -4,12 +4,13 @@
 // Đường dẫn trên giải thích về path
 import express from 'express';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path'; 
+import { dirname, join } from 'path'; 
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 
-app.use(express.static('publics'));
+const staticDir = join(__dirname, 'publics');
+app.use(express.static(staticDir));
 
 // Main route
 
